@@ -1,0 +1,436 @@
+.home {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 22px 25px;
+  padding-top: 0px;
+}
+
+.home2 {
+  display: flex;
+  align-items: center;
+  padding: 69px 45px 60px 84px;
+  gap: 21px;
+}
+
+.home21 {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.home21t {
+  display: flex;
+  flex-direction: column;
+}
+
+.home23img {
+  background-color: #e1eaea;
+}
+
+.imgcr {
+  width: 181px;
+  background-color: #e1eaea;
+}
+
+.home21t p {
+  color: gray;
+  margin: 0;
+  font-weight: 500;
+}
+
+.home21 h2 {
+  font-size: 27px;
+  font-weight: 800;
+  color: #283e3e;
+}
+
+.home22 {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.home22t {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 38px;
+}
+
+.home22 h4 {
+  color: gray;
+  margin: 0;
+  font-weight: normal;
+}
+
+.home22 h2 {
+  font-size: 27px;
+  font-weight: 800;
+  color: #283e3e;
+}
+
+.homebutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffdb4d;
+  background-color: #ffdb4d;
+  border-radius: 3px;
+  height: 33px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 138px;
+}
+
+.homebutton p {
+  color: #283e3e;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.homebutton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffdb4d;
+  background-color: #ffdb4d;
+  border-radius: 3px;
+  height: 33px;
+  width: 97px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.homebutton2 p {
+  color: #283e3e;
+  font-size: 10px;
+  margin: 0;
+  font-weight: 800;
+}
+.home23 {
+  display: flex;
+  align-items: center;
+}
+
+.rightimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 378px;
+  gap: 20px;
+}
+
+.image2 {
+  width: 378px;
+
+  background-size: contain;
+}
+
+.imagee2 {
+  position: relative;
+}
+
+.imagee3 {
+  position: relative;
+}
+.image3 {
+  width: 378px;
+  background-size: contain;
+}
+
+/* .image2 {
+  position: relative;
+  background-size: contain;
+  width: 400px;
+  height: 100%;
+  background-image: url("./home2.avif");
+  background-repeat: no-repeat;
+  cursor: pointer;
+} */
+/* .image3 {
+  position: relative;
+  width: 400px;
+  background-image: url("./home3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  cursor: pointer;
+  /* background-repeat: no-repeat; */
+/* position: relative; */
+/* } */
+
+.imagee1 {
+  /* flex: 80%; */
+  position: relative;
+  width: 860px;
+  height: 500px;
+  /* position: relative; */
+  cursor: pointer;
+}
+
+.image1 {
+  width: 872px;
+}
+
+.textdiv {
+  position: absolute;
+  bottom: 15rem;
+  left: 5rem;
+}
+
+.buttonsdiv {
+  position: absolute;
+  bottom: 10rem;
+  left: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-after-banner {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 92px 61px 15px 108px;
+}
+
+.button1 {
+  padding: 12px;
+  border-color: blue;
+  border-width: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid blue;
+  border-right: 0px;
+  color: blue;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.button2 {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #ffdb4d;
+  width: 130px;
+  border: 1px solid #ffdb4d;
+  border-left: none;
+  border-radius: 4px;
+  color: black;
+}
+
+.button2:hover {
+  background-color: #9acd32;
+  color: white;
+  border-color: #9acd32;
+}
+
+/* .img2text {
+  position: absolute;
+  bottom: 15rem;
+  top: 0;
+  
+  
+  
+} */
+
+.img2text {
+  position: absolute;
+  bottom: 15rem;
+  top: 0;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 30%;
+  left: 20px;
+}
+
+.img2text h2 {
+  padding-left: 12px;
+  font-size: 23px;
+  padding-right: 41px;
+}
+
+.img2text p {
+  padding-left: 12px;
+  padding-right: 68px;
+}
+
+.img3text {
+  position: absolute;
+  bottom: 15rem;
+  top: 0;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 30%;
+  left: 20px;
+}
+
+.img3text h2 {
+  padding-left: 48px;
+  font-size: 23px;
+  padding-right: 41px;
+}
+
+.img3text p {
+  padding-left: 67px;
+  padding-right: 68px;
+}
+
+/* .img2text h2 {
+  margin: 0 !important;
+  font-size: 17px;
+  font-weight: 800;
+} */
+
+/* .img2text p {
+  margin: 0 !important;
+}  */
+/* 
+ .img3text {
+  position: absolute;
+  bottom: 15rem;
+  top: 0;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 40%;
+  left: 80px;
+} */
+
+/* .img3text h2 {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 800;
+} */
+
+/* .img3text p {
+  margin: 0 !important;
+} */
+
+.text {
+  color: white;
+  font-size: 22px;
+}
+
+.text2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .rightimg {
+    width: 100%;
+  }
+  .home {
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-image-1{
+    width: 100%;
+    height: 83%;
+    position: relative;
+  }
+
+  .image3 {
+    width: 100%;
+  }
+  .imagee3 {
+    left: 0 !important;
+    width: 100%;
+  }
+  .home {
+    width: 100%;
+    display: block;
+  }
+  .imgcr {
+    width: 100%;
+  }
+  .imagee1 {
+    width: 100%;
+    height: 619px;
+    position: unset;
+    margin-bottom: 10rem;
+  }
+  .image1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .textdiv {
+    position: absolute;
+    bottom: 21rem;
+    left: 5rem;
+}
+
+  .homepage {
+    width: 100%;
+    padding: 0 13px;
+  }
+  .imagee2 {
+    left: 0;
+  }
+
+  .imagee3 {
+    left: 36px;
+  }
+
+  .image1 {
+    object-fit: cover;
+    /* width: 348px; */
+    height: 100vh;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .buttonsdiv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 14rem;
+    gap: 6px;
+  }
+
+  .button1{
+    border-width: 3px;
+    border-right-style: double;
+  }
+
+  .text2{
+    font-size: larger;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 26px;
+  }
+
+  .text{
+    font-size: medium;
+    padding-left: 38px;
+    width: 100%;
+  }
+
+  .section-after-banner {
+    padding: 93px 31px 31px 37px;
+  }
+
+  .for-media {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+  }
+}

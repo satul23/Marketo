@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Navbar/Navbar.jsx";
+import Home from "./Home/Home.jsx";
+import Search from "./Search/Search.jsx";
+import Topweek from "./Topweek/Topweek.jsx";
+import Hotsale from "./Hotsale/Hotsale.jsx";
+import Womenclothing from "./womenclothing/Womenclothing.jsx";
+import Mensclothing from "./Mensclothing/Mensclothing.jsx";
+import Mobile from "./Mobile/Mobile.jsx";
+import Computer from "./Computer/Computer.jsx";
+import Watches from "./Watches/Watches.jsx";
+import Lifeeasy from "./Lifeeasy/Lifeeasy.jsx";
+import Featured from "./Feactured/Feactured.jsx";
+import Contact from "./Contact/Contact.jsx";
+import Footer from "./Footer/Footer.jsx";
+import Underfooter from "./Below-footer/Underfooter.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+     <Navbar />
+     <Search />
+     <Home />
+     <Topweek />
+     <Hotsale/>
+     <Womenclothing/>
+     <Mensclothing/>
+     <Mobile/>
+     <Computer/>
+     <Watches/>
+     <Lifeeasy/>
+     <Featured/> 
+     <Contact/>
+     <Footer/>
+     <Underfooter/>
+    </>
+  )
 }
 
-export default App;
+ export default App;

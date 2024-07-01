@@ -1,0 +1,138 @@
+.Topweek-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 60px 20px 108px;
+}
+.toplistItems{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    gap: 48px;
+}
+
+.toplistlink{
+    display: flex;
+    align-items: center;
+     text-decoration: none;
+     color: gray;
+     font-weight: 600;
+     font-size: large;
+}
+
+.toplistlink:hover{
+    color: #ffdb4d;
+}
+
+.topcatimg{
+    width: 101px;
+}
+
+.topproducts{
+    padding: 39px 52px 20px 109px;
+}
+
+.projectorx{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 109px;
+    gap: 21px;
+}
+
+.toprows{
+    gap: 8px;
+    padding: 0px 0px 47px 0px;
+}
+
+.topicon{
+    color: yellow;
+    width: 28px;
+    height: 20px;
+}
+
+
+.topicon:hover{
+    color: gray;
+}
+
+.topcatimgmobile{
+    height: 121px;
+    width: 89px;
+}
+
+.staricon{
+    color: #ffdb4d;
+    
+}
+
+.topcols{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.topproductst1{
+   display: flex;
+   flex-direction: column; 
+}
+
+.textdiv34{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.tophead{
+    color: blue;
+}
+
+.topheadspan{
+    color: gray;
+}
+
+.pricediv{
+    display: flex;
+    
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+  .topweek-heading{
+    width: 100%;
+  }
+  .topweek-heading h4{
+    font-size: x-large;
+  }
+  .toprows{
+    width: 100%;
+  }
+
+
+  .Topweek-section{
+    padding: 40px 10px 15px 12px;
+    display: block;
+  }
+  .toplistItems{
+    flex-wrap: wrap;
+    column-gap: 51px;
+    width: 100%;
+    padding: 0;
+    gap: 15px;
+    padding-left: 11px;
+  }
+
+  .toplistlink {
+    font-size: large;
+  }
+
+  .topproducts{
+    padding: 28px 0px 12px 36px;
+    width: 100%;
+  }
+
+.toprows{
+    gap: 89px;
+}
+}

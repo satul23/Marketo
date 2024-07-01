@@ -1,0 +1,254 @@
+
+.Lifeeasy-section{
+    padding: 109px 12px 3px 0px;
+}
+
+.Lifeeasy-div{
+    position: absolute;
+    bottom: 5rem;
+    padding: 20px 20px 20px 53px;
+}
+
+.Lifeeasy-section-img{
+   position: relative;
+}
+
+.Lifeeasy-background-img{
+    width: 100%; 
+} 
+
+.Life-top-div{
+    display: flex;
+    align-items: baseline;
+    width: 70rem;
+    justify-content: space-between;
+    padding-right: 75px;
+
+}
+
+.Life-top-button{
+    border: solid;
+    border-width: 1px;
+    border-radius: 23px;
+    border-color: yellow;
+    width: 182px;
+    height: 45px;
+    background-color: #ffdb4d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Life-top-button p{
+    margin: 0;
+    font-weight: 600;
+    font-size: small;
+}
+
+.life-row-1{
+    padding-top: 34px;
+    display: flex;
+    padding: 20px 138px 20px 4px;
+}
+
+.Life-middle-div{
+    padding-top: 12px;
+}
+
+.Life-middle-img-div{
+    width: 210px;
+}
+
+.Life-middle-img1{
+    width: 210px;
+}
+
+.Life-middle-text1{
+    padding-bottom: 4px;
+}
+
+.Life-middle-Price{
+    display: flex;
+    align-items: center;
+    width: 124px;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.Life-middle-Price1{
+    color: gray;
+}
+
+
+.Life-middle-button-div{
+    border: solid;
+    border-width: 1px;
+    border-radius: 23px;
+    border-color: blue;
+    width: 183px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Life-middle-img-col{
+    display: flex;
+    background-color: white;
+    height: 237px;
+}
+
+.lifeicone{
+   padding: 0;
+   display: flex;
+   width: 66%;
+   justify-content: flex-end;
+}
+
+.lifeiconee{
+    padding: 0;
+    padding-top: 15px;
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+.life-icon{
+    font-size: 22px;
+    color: #ffdb4d;
+}
+
+.lifestar{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.life-star{
+   color: #ffdb4d;
+}
+
+.life-all-text{
+    padding-top: 60px;
+    padding-right: 82px;
+}
+
+.life-bottom-text{
+    padding-top: 99px;
+    padding-right: 82px;
+}
+
+.life-bottom-text-col2{
+    padding-top: 59px;
+    padding-right: 82px;
+}
+
+.Life-bottom-Price1{
+    color: blue;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .Lifeeasy-section{
+        width: 100%;
+        padding: 0;
+        padding-top: 166vh;
+    }
+
+    .Lifeeasy-div{
+        position: absolute;
+        bottom: 5rem;
+        width: 100%;
+    }
+
+    .Life-middle-div .life-row-1{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        gap: 24px;
+    }
+    .Life-middle-div .life-col-1{
+        padding: 0;
+        /* display: block; */
+        width: 100%;
+    }
+    .life-all-text{
+        padding: 0;
+    }
+    .Life-middle-img-div{
+        width: 100%;
+    }
+
+    .Life-top-div{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .Life-top-text{
+        width: 100%;
+        padding: 0;
+    }
+    .life-bottom-text{
+        width: 100%;
+        padding: 0;
+    }
+    .Life-top-text h4{
+        width: 100%;
+        padding: 0;
+    }
+   
+    .Life-middle-div{
+        width: 100%;
+    }
+
+    .Life-middle-img1{
+        width: 100%;
+    }
+
+    .Life-middle-img-col{
+        width: 100%;
+        padding: 0;
+        height: 100%;
+        display: block;
+    }
+
+    .Life-middle-text-div{
+        width: 100%;
+    }
+
+    .lifestar{
+        padding: 0;
+        width: 100%;
+    }
+
+    .lifeicone{
+        width: 100%;
+    }
+
+    .Lifeeasy-background-img {
+        width: 100%;
+        height: 73vh;
+    }
+
+    .lifestar {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .lifeicone {
+        width: 100%;
+        padding: 0;
+        padding-left: 96px;
+    }
+
+    .life-star{
+       width: 100%;
+    }
+    
+    
+}

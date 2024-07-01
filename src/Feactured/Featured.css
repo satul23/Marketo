@@ -1,0 +1,256 @@
+.Featured-section {
+  padding-top: 63px;
+  padding-left: 24px;
+}
+
+.rowdivfea {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fea-arrow {
+  font-size: 33px;
+  color: gray;
+}
+
+.toplistlinks{
+  display: flex;
+  align-items: center;
+   text-decoration: none;
+   color: gray;
+   font-weight: 600;
+   font-size: large;
+}
+
+.arrow-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 921px;
+}
+
+.row1-2imgs{
+  width: 60px;
+}
+
+.all-featured {
+  display: flex;
+}
+
+.Featured-products {
+  display: flex;
+  padding-left: 31px;
+  padding-bottom: 56px;
+  gap: 45px;
+  width: 100%;
+}
+
+.featured-right-div-row1 {
+  gap: 28px;
+  width: 886px;
+  padding: 60px 0px 20px 0px;
+  padding-top: 52px;
+}
+.featured-right-div-row2 {
+    gap: 28px;
+    width: 886px;
+    padding: 12px 0px 20px 0px;
+    padding-top: 12px;
+    padding-top: 52px;
+  }
+
+
+.featured-right-img {
+  width: 256px;
+  padding-top: 110px;
+}
+
+.featured-img-div {
+  position: relative;
+  width: 30%;
+}
+
+.Featured-products-div {
+  width: 70%;
+}
+.Featured-products-div .slick-slider .slick-next {
+  position: absolute;
+  top: 0;
+  color: silver;
+  height: 34px;
+    width: 34px;
+    left: 101%;
+}
+
+.Featured-products-div .slick-slider .slick-next:hover {
+    color: blue;
+  }
+
+.Featured-products-div .slick-slider .slick-prev:hover {
+    color: blue;
+  }
+
+.Featured-products-div .slick-slider .slick-next:before {
+    font-family: 'slick';
+    font-size: 38px;
+    line-height: 1;
+    /* color: white; */
+    color: gray;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.Featured-products-div .slick-slider .slick-prev {
+ 
+  position: absolute;
+  left: 97%;
+  top: 0;
+ color: silver; 
+ height: 34px;
+    width: 34px;
+}
+
+.Featured-products-div .slick-slider .slick-prev:before {
+    font-family: 'slick';
+    
+    line-height: 1;
+    /* color: white; */
+    color: gray;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+
+.featured-right-text-div {
+  position: absolute;
+  bottom: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-text1 h1 {
+  font-weight: 630;
+}
+
+.featured-text2 h1 {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.section-under-featured {
+  height: 227px;
+  background-color: #333e48;
+  display: flex;
+  align-items: center;
+}
+
+.section-under-featured-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1346px;
+}
+
+.featured-section2-img {
+  cursor: pointer;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .Featured-section{
+      width: 100%;
+      padding: 10px 14px 10px 16px;
+    }
+    .Featured-products{
+      display: block;
+      padding: 0;
+    }
+    .Womenclothing-right-div-cols2{
+      display: none;
+    }
+    .featured-right-div-row1{
+          display: flex;
+          padding: 0;
+          flex-direction: column;
+
+    }
+    .featured-right-div-row2{
+     display: flex;
+     padding: 0;
+     flex-direction: column;
+
+    }
+    .featured-img-div {
+      position: relative;
+      width: 100%;
+  }
+  .featured-right-text-div {
+    position: absolute;
+    bottom: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.toplistlinks{
+  display: flex;
+  align-items: center;
+   text-decoration: none;
+   color: #ffdb4d;
+   font-weight: 600;
+   font-size: x-large;
+}
+
+.section-under-featured-div{
+  display: grid;
+  grid-template-columns: 30px 102px;
+  padding: 20px 0;
+}
+
+.section-under-featured{
+  height: auto;
+}
+.Topcatlist {
+  padding: 21px 26px 26px 3px;
+  width: 100%;
+}
+
+.toplistItems {
+  flex-wrap: wrap;
+  column-gap: 51px;
+  width: 100%;
+  padding: 0;
+  gap: 15px;
+  /* padding-left: 11px; */
+}
+
+.Featured-products-div .slick-slider .slick-prev:before {
+display: none;
+  
+}
+
+
+.Featured-products-div .slick-slider .slick-next {
+  display: none !important;
+
+}
+
+.Featured-products-div .slick-slider .slick-prev{
+  display: none !important;
+
+}
+
+.Featured-products-div {
+  width: 100%;
+}
+
+.featured-right-div-row1 {
+  gap: 3rem;
+}
+.featured-right-img {
+  width: 100%;
+  padding-top: 111px;
+}
+
+
+}

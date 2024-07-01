@@ -1,0 +1,124 @@
+
+
+.header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 12px 41px;
+    padding-top: 16px;
+    margin: 0;
+    background-color: white;
+}
+
+.logo{
+    font-size: medium;
+    display: flex;
+}
+
+.navbarwid ul{
+    margin: 0;
+    
+}
+
+.dot{
+    color: yellow;
+}
+
+.logos{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.logos h1{
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbarlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+   
+}
+
+.NavItems {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 1rem;
+}
+
+.Navlink{
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+}
+
+
+
+.icon {
+    font-size: 32px;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.NavItems:hover{
+    color: blue;
+}
+.NavItems:hover .Navlink{
+    color: blue;
+}
+
+.drop{
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.drop:hover{
+    color: blue;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+     .header .navbarlist{
+        display: none;
+     }
+    
+
+    .icons{
+        display: none;
+    }
+
+    .header{
+      padding-left: 8px;
+      width: 100%;
+      position: sticky;
+    }
+
+    .logos h1 {
+        font-weight: 700;
+        margin: 0;
+        font-size: 38px;
+}
+
+/* .logo{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    width: 357px;
+} */
+
+}
